@@ -1,8 +1,6 @@
 import { Button, Card, Container, Grid, Text, Image } from '@nextui-org/react'
 import { NextPage } from 'next'
 import { GetStaticProps, GetStaticPaths } from 'next'
-
-import { useRouter } from 'next/router'
 import { pokeApi } from '../../api'
 import { Layout } from '../../components/layouts'
 import { Pokemon } from '../../interfaces'

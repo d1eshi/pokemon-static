@@ -10,8 +10,6 @@ interface Props {
 }
 
 const HomePage: NextPage<Props> = ({ pokemons }) => {
-  console.log({ pokemons })
-
   return (
     <Layout title="Listado de Pokémons">
       <Grid.Container gap={2}>
