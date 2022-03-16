@@ -1,3 +1,5 @@
+import { SmallPokemon } from './pokemon-list'
+
 export interface Pokemon {
   abilities: Ability[]
   base_experience: number
@@ -17,6 +19,7 @@ export interface Pokemon {
   stats: Stat[]
   types: Type[]
   weight: number
+  results: SmallPokemon[]
 }
 
 export interface Ability {
