@@ -113,7 +113,6 @@ export const getStaticPaths: GetStaticPaths = async ctx => {
     paths: pokemons151.map(id => ({
       params: { id },
     })),
-    // fallback: false,
     fallback: 'blocking',
   }
 }
